@@ -1,8 +1,29 @@
 aid: esperion-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/esperion-therapeutics.png
 name: Esperion Therapeutics
-description: Esperion Therapeutics is a company surfaced as a portfolio company of canaan-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Esperion Therapeutics, Inc. (Nasdaq: ESPR) is a commercial-stage
+  pharmaceutical company based in Ann Arbor, Michigan, focused on discovering,
+  developing, and commercializing innovative medicines that lower LDL
+  cholesterol and reduce cardiovascular risk. Its lead products are NEXLETOL
+  (bempedoic acid) and NEXLIZET (bempedoic acid and ezetimibe), oral,
+  once-daily, non-statin therapies indicated to lower elevated LDL-C in adults.
+  As a life-sciences company, Esperion operates a corporate and scientific
+  marketing web presence rather than a developer program; it publishes no
+  public API, developer portal, SDKs, or technical documentation. This profile
+  was added to the API Evangelist network as a venture-portfolio lead and
+  enriched with verifiable company identity and domain-security signals only.
 url: https://raw.githubusercontent.com/api-evangelist/esperion-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +31,37 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Pharmaceutical
+- Biotechnology
+- Life Sciences
+- Cardiovascular
+- Healthcare
+- Therapeutics
 apis: []
+common:
+- type: Website
+  url: https://www.esperion.com/
+- type: PrivacyPolicy
+  url: https://www.esperion.com/privacy-policy
+- type: TermsOfService
+  url: https://www.esperion.com/terms-use
+- type: Support
+  url: https://www.esperion.com/contact-us
+- type: DomainSecurity
+  url: security/esperion-therapeutics-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
